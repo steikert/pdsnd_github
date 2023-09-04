@@ -20,7 +20,7 @@ def get_filters():
     city = ''
     while city not in CITY_DATA.keys():
         """
-        converts input to lower cases and checks if input in defined list
+        Converts input to lower cases letters and checks if input in defined list
         """
         city = input('Please choose Chicago, New York City, or Washington: ').lower()
 
