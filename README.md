@@ -4,7 +4,7 @@
 2023-09-04
 
 ### Project Title
-Bikeshare
+Sharing bikes within major cities in the US
 
 ### Description
 Analysis of shared bikes in various different cities across the US
