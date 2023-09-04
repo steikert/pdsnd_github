@@ -191,7 +191,7 @@ def show_data(df):
      Args:
         (dataframe) df - data frame to analyze"""
 
-    tmp= input('If you want to see the raw data used for the analysis then please type yes or anything else for no: ').lower()
+    tmp= input('For raw data please type yes or anything else for no: ').lower()
 
     index = 0
     while tmp == 'yes':
