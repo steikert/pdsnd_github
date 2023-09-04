@@ -28,7 +28,7 @@ def get_filters():
     months = ['all', 'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']
     month = ''
     while month not in months:
-        month = input('Be so kind and select a particular month of a year or all to analyze the entire year: ').lower()
+        month = input('Please select a particular month of a year or all to analyze the entire year: ').lower()
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     days = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
